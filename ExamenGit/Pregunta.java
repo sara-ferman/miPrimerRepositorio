@@ -1,15 +1,13 @@
 public class Pregunta(){
     private String enunciados;
-    private double puntuacionMaxima;
 
 
     public void Pregunta(){
 
     }
 
-    public void Pregunta(String enunciados, double puntuacionMaxima){
+    public Pregunta(String enunciados){
         this.enunciados=enunciados;
-        this.puntuacionMaxima=puntuacionMaxima;
     }
 
     public String getEnunciados(){
